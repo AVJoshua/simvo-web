@@ -12,4 +12,6 @@ button:hover {
 #title {
 text-align: center;
 padding: 200px;
+background-image: url("images/image.png");
+background-position: center top;
 }
