@@ -1,0 +1,43 @@
+<html>
+	<body>
+		<div id="title">
+		<h1> Welcome to Joshua's Web page</h1>
+		<p>This is where dreams come true</p>
+		<button onclick = "makeDreamComeTrue()">make dream come true</button>
+		</div>
+	</body>
+</html>
+
+<style>
+
+Body {
+background-image: url("https://tse4.mm.bing.net/th/id/OIP.iIConyhxeRP-AbIOmgaOpgAAAA?pid=ImgDet&w=207&h=138&c=7&dpr=1.5&o=7&rm=3");
+Background-size: cover;
+
+}
+
+h1 {
+	color: blue;
+}
+
+button:hover {
+	background-color: red;
+	cursor: pointer;
+	font-size: 20px;
+}
+
+
+#title {
+width: 100%;
+text-align: center;
+margin-top: 50px;
+}
+</style>
+
+<script>
+function makeDreamComeTrue() {
+//alert("Dreams came true!!");
+document.body.style.background = 'url("https://www.bing.com/th/id/OGC.bd947bb7c9850d83d1c2520f2762d949?o=7&pid=1.7&rm=3&rurl=https%3a%2f%2fvignette.wikia.nocookie.net%2fcamphalfbloodroleplay%2fimages%2fb%2fb7%2fTumblr_static_explosion_gif.gif%2frevision%2flatest%3fcb%3d20130613172315&ehk=xswn5CPWX88yV5jmY5zl2wVZHf5iYPaGja2w7VQLDos%3d")'
+document.getElementById("title").style.visibility = "hidden";
+}
+</script>
