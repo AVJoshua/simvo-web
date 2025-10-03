@@ -1,7 +1,8 @@
 <html>
 	<head>
 		<title>Joshua's Web Page</title>
-		<link rel="stylesheet" href="titlesection/titlesection.css">
+		<link rel="stylesheet" href="./titlesection/titlesection.css">
+		<link rel="stylesheet" href="./aboutmesection/aboutme.css">
 		<link rel="stylesheet" <link href="https://fonts.googleapis.com/css2?family=Handlee&family=Happy+Monkey&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap">
 	</head>
 	<body>
@@ -9,6 +10,16 @@
 		<h1 class="title-section-header"> Welcome to Joshua's Web page</h1>
 		<p class="title-section-subtitle">This is where dreams come true</p>
 		<button class="title-section-button" onclick = "makeDreamComeTrue()">make dream come true</button>
+		</div>
+		<div class="misc-section" id="aboutme">	
+			<div class="text-block-container">
+				<h1>About Me</h1>
+				<p class="aboutme-section-description">Hello! My name is Joshua.
+					I am a software developer and student.
+					I love coding and learning new things.
+					This is my personal webpage where I share my projects and ideas.
+					Feel free to explore and reach out to me!</p>
+			</div>
 		</div>
 	</body>
 </html>
@@ -27,6 +38,15 @@ padding: 0px;
 	height: 100vh;
 	Background-size: cover;
 	padding: 25px;
+}
+
+.misc-section {
+	width: 100vw;
+	padding: 100px 25px;
+}
+.text-block-container{
+	width: 65%;
+	margin:0 auto;
 }
 </style>
 
