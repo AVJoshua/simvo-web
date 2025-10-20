@@ -2,7 +2,7 @@
 let crapsUsername = ""
 
 //Craps Game Settings
-const startingMoney = 1000
+const startingMoney = "$" + 1000
 const startingRounds = 0
 
 //HTML Element IDs
